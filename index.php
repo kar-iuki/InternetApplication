@@ -3,7 +3,6 @@
 <head>index</head>
 <body>
     <p>this is my first page</p>
-    <p>Yes</p>
     <?php
     //require_once "load.php";
     //print $Obj->user_age("Alex", 2004);
