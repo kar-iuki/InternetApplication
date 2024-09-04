@@ -1,14 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>This is Amazing</h1>
-    <?php
-    require_once "load.php"
-    ?>
-</body>
-</html>
+<?php
+
+class fnc{
+    var $fname;
+    public $username;
+    protected $email_address;
+    private $password;
+
+    public function computer_user($fname){
+        return $fname;
+    }
+
+    public function user_age($name, $yob){
+        $age = date('Y') - $yob;
+        return $name . " is " . $age;
+    }
+}
+
+?>

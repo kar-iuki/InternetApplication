@@ -1,23 +1,29 @@
 <?php
+require_once "Layout/layout.php";
+$ObjLayouts = new layouts();
+require_once "menus/menus.php";
+$ObjMenus = new menus();
 
-require_once 'class.php';
+//$arr = ["black", "white", "green", "red"];
 
+//foreach($arr AS $color){
+ //   print $color . "<br>";
+//}
 
-$user = new fnc();
+//print dirname(_FILE_);
+//print "<br>";
+//print "<br>";
+//print $_SERVER["PHP_SELF"];
+//print "<br>";
+//print "<br>";
+//print basename($_SERVER["PHP_SELF"]);
+//print "<br>";
+//print "<br>";
 
-print  $user->user_age("name", "1974 ");
-
-$arr = ["black", "white", "green", "red"];
-
-foreach ($arr as $color) {
-    // print $color . "<br>";
-    print $_SERVER["PHP_SELF"];
-}
-
-print dirname(_FILE_);
-if(file_exists("index.php")){
-    print "yes";
-}
-else{
-    print "no";
-}
+//if(file_exists("index.php")){
+//    print "yes";
+//}
+//else{
+//    print "no";
+//}
+?>
