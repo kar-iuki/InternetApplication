@@ -1,5 +1,4 @@
 body{
-    background-color: black;
     margin: 0;
 }
 *{
@@ -17,17 +16,20 @@ body{
     text-align: left;
     padding: 14px 16px;
 }
+
 .topnav a:hover{
     color: black;
-    padding: 20px;
-    text-align: center;
-    color: azure;
+    text-decoration: none;
+    background-color: azure;
 }
+
 .topnav-right{
     float: right;
 }
+
+
 .footer{
-    background-color:  black;
+    background-color: black;
     padding: 20px;
     text-align: center;
     color: azure;

@@ -19,6 +19,8 @@ $ObjLayouts = new layouts();
 $ObjMenus = new menus();
 //require_once "contents/headings.php";
 $ObjHeadings = new headings();
+$ObjCont = new contents();
+
 
 
 
