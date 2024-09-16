@@ -21,6 +21,10 @@ $ObjMenus = new menus();
 $ObjHeadings = new headings();
 $ObjCont = new contents();
 
+require "includes/constants.php";
+require "includes/dbConnection.php";
+
+$conn = new dbConnection(DBTYPE, HOSTNAME, DBPORT, HOSTUSER, HOSTPASS, DBNAME);
 
 
 
