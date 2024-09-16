@@ -1,5 +1,5 @@
 <?php
-error class contents{
+class contents{
     public function main_content(){
 ?>
 <div class="row">
